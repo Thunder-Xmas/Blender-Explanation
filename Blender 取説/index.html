@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+　<div class="topTitle">Blenderの基本操作</div>
+  
+  <div class="wrap">
+    <label for="label1" id="type1">▼ 視点を変える</label><input type="checkbox" id="label1" class="switch" /><div class="content" id="ct1">
+      <p>
+        視点の向き、ズーム、場所を変えることができます。
+        いずれもドラッグで操作します。<br><br>
+        なお、その下にあるカメラマークをクリックすると、カメラからの視点を確認することができます。
+        
+
+        <img src="Blender Ex01.gif" alt="画像表示不可" width=100% align="center">
+        
+      </p>
+    </div>
+
+
+    <!--
+    <label for="label2" id="type1">▼ オブジェクトを追加</label><input type="checkbox" id="label2" class="switch" /><div class="content">
+      <p>
+        画面左上の「追加」から選択<br>
+        "Shift + A" で追加<br>
+        
+      </p>
+    </div>
+
+    <label for="label3" id="type1">▼ ズームイン・アウト</label><input type="checkbox" id="label3" class="switch" /><div class="content">
+      <p>
+        <span>スピーカー</span>：14<br>
+        <span>セラミックコンデンサ</span>：22<br>
+        <span>ソケット</span>：12<br>
+        
+      </p>
+    </div>
+    -->
+
+
+    <label for="label4" id="type1">▼ リアリティを変える</label>
+    <input type="checkbox" id="label4" class="switch" />
+    <!-- ↓↓最初隠したいコンテンツ↓↓ -->
+    <div class="content" id="ct1">
+      <p>
+        CGではオブジェクトに素材感・質感を設定できますが、常に質感を表示しているとPCに負荷がかかるため、編集の時は簡略化して表示するのが一般的です。<br><br>
+        Blenderでは右上のボタンから切り替えることができます。
+        
+      </p>
+    </div>
+
+
+    <label for="label5" id="type1">▼ パラメータを変える</label>
+    <input type="checkbox" id="label5" class="switch" />
+    <!-- ↓↓最初隠したいコンテンツ↓↓ -->
+    <div class="content" id="ct1">
+      <p>
+        スピーカー　　　　　　　：14<br>
+        セラミックコンデンサ　　：22<br>
+        ソケット　　　　　　　　：12<br>
+        
+      </p>
+    </div>
+
+
+    <label for="label6" id="type2">▼ オブジェクトを追加</label>
+    <input type="checkbox" id="label6" class="switch" />
+    <!-- ↓↓最初隠したいコンテンツ↓↓ -->
+    <div class="content" id="ct2">
+      <p>
+        スピーカー　　　　　　　：14<br>
+        フォトカプラ　　：22<br>
+        フォトインタラプタ　　：22<br>
+        フォトリフレクタ　　：22<br>
+        ボリューム　　　　　　　　：12<br>
+        
+      </p>
+    </div>
+
+
+    <label for="label7" id="type2">▼ 形を変える</label>
+    <input type="checkbox" id="label7" class="switch" />
+    <!-- ↓↓最初隠したいコンテンツ↓↓ -->
+    <div class="content" id="ct2">
+      <p>
+        スピーカー　　　　　　　：14<br>
+        セラミックコンデンサ　　：22<br>
+        ソケット　　　　　　　　：12<br>
+        
+      </p>
+    </div>
+
+
+    <label for="label8" id="type2">▼ マテリアルを変える</label>
+    <input type="checkbox" id="label8" class="switch" />
+    <!-- ↓↓最初隠したいコンテンツ↓↓ -->
+    <div class="content" id="ct2">
+      <p>
+        スピーカー　　　　　　　：14<br>
+        セラミックコンデンサ　　：22<br>
+        ソケット　　　　　　　　：12<br>
+        
+      </p>
+    </div>
+
+
+    <label for="label9" id="type3">▼ アニメーションを追加</label>
+    <input type="checkbox" id="label9" class="switch" />
+    <!-- ↓↓最初隠したいコンテンツ↓↓ -->
+    <div class="content" id="ct3">
+      <p>
+        スピーカー　　　　　　　：14<br>
+        セラミックコンデンサ　　：22<br>
+        レギュレータ　　　　　　　　：12<br>
+        
+      </p>
+    </div>
+
+
+    <!--
+    <label for="label10" id="type4">▼ わ</label>
+    <input type="checkbox" id="label10" class="switch" />
+    <div class="content" id="ct4">
+      <p>
+        スピーカー　　　　　　　：14<br>
+        セラミックコンデンサ　　：22<br>
+        ソケット　　　　　　　　：12<br>
+        
+      </p>
+    </div>
+
+
+    <label for="label11" id="type5">▼ ABCDEFG</label>
+    <input type="checkbox" id="label11" class="switch" />
+    <div class="content" id="ct5">
+      <p>
+        AVRマイコン　　　　　　　：14<br>
+        Arduino　　：22<br>
+        ESP32　　　　　　　　：12<br>
+        EEPROM　　　　　　　　：12<br>
+        
+      </p>
+    </div>
+
+
+    <label for="label12">▼ HIJKLMN</label>
+    <input type="checkbox" id="label12" class="switch" />
+    <div class="content">
+      <p>
+        スピーカー　　　　　　　：14<br>
+        セラミックコンデンサ　　：22<br>
+        ソケット　　　　　　　　：12<br>
+        
+      </p>
+    </div>
+
+
+    <label for="label13">▼ OPQRSTU</label>
+    <input type="checkbox" id="label13" class="switch" />
+    <div class="content">
+      <p>
+        PIC-KIT 　　　　　　　：14<br>
+        PICマイコン　　：22<br>
+        RTC　　　　　　　　：12<br>
+        Raspberry Pi Pico　　　　　　　　：12<br>
+        
+      </p>
+    </div>
+
+
+    <label for="label14">▼ VWXYZ</label>
+    <input type="checkbox" id="label14" class="switch" />
+    <div class="content">
+      <p>
+        スピーカー　　　　　　　：14<br>
+        セラミックコンデンサ　　：22<br>
+        ソケット　　　　　　　　：12<br>
+        
+      </p>
+    </div>
+
+
+    <label for="label15">▼ 0~9</label>
+    <input type="checkbox" id="label15" class="switch" />
+    <div class="content">
+      <p>
+        74HC　　　　　　　：14<br>
+        セラミックコンデンサ　　：22<br>
+        ソケット　　　　　　　　：12<br>
+        
+      </p>
+    </div>
+
+    -->
+
+
+      
+  </div>
+
+</body>
+</html>
+
