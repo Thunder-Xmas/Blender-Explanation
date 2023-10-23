@@ -8,13 +8,44 @@
 <body>
 
 　<div class="topTitle">Blenderの基本操作</div>
+
+
+    
   
   <div class="wrap">
-    <label for="label1" id="type1">▼ 視点を変える</label><input type="checkbox" id="label1" class="switch" /><div class="content" id="ct1">
+    <label for="label1" id="type1">▼ 画面の説明</label><input type="checkbox" id="label1" class="switch" /><div class="content" id="ct1">
+      <p>
+
+        <div id="subtitle">ＣＧ編集画面</div>
+          ＞ここでCGの主要な編集を行います<br>
+        <div id="subtitle">各種設定</div>
+          ＞CGの書き出しやエフェクトなど、細かな設定を行います<br>
+        <div id="subtitle">フォルダ</div>
+          ＞追加したオブジェクトなどはここに表示されます。フォルダ分けをしたり、オブジェクトを非表示にしたりできます。<br>
+        <div id="subtitle">アニメ編集画面</div>
+          ＞キーフレームを使ってアニメーションを編集します<br><br>
+
+        <img src="Blender-Ex1.png" alt="画像表示不可" width=100% align="center"><br><br><br>
+
+        <div id="subtitle">オブジェクト</div>
+          ＞主にCGで描かれる図形・物体を指します<br>
+        <div id="subtitle">カメラ</div>
+          ＞ここからCGの世界を撮影します。一眼のように被写界深度なども設定できます。<br>
+        <div id="subtitle">ライト</div>
+          ＞CGの世界の光です。種類、色、強度など自由に変更できます。<br><br>
+          
+        <img src="Blender-Ex2.png" alt="画像表示不可" width=100% align="center"><br>
+        
+      </p>
+    </div>
+
+
+    
+    <label for="label2" id="type1">▼ 視点を変える</label><input type="checkbox" id="label2" class="switch" /><div class="content" id="ct1">
       <p>
         視点の向き、ズーム、場所を変えることができます。
         いずれもドラッグで操作します。<br><br>
-        なお、その下にあるカメラマークをクリックすると、カメラからの視点を確認することができます。
+        なお、その下にあるカメラマークをクリックすると、カメラからの視点を確認することができます。<br><br>
         
 
         <img src="Blender Ex01.gif" alt="画像表示不可" width=100% align="center">
@@ -24,13 +55,6 @@
 
 
     <!--
-    <label for="label2" id="type1">▼ オブジェクトを追加</label><input type="checkbox" id="label2" class="switch" /><div class="content">
-      <p>
-        画面左上の「追加」から選択<br>
-        "Shift + A" で追加<br>
-        
-      </p>
-    </div>
 
     <label for="label3" id="type1">▼ ズームイン・アウト</label><input type="checkbox" id="label3" class="switch" /><div class="content">
       <p>
@@ -49,8 +73,10 @@
     <div class="content" id="ct1">
       <p>
         CGではオブジェクトに素材感・質感を設定できますが、常に質感を表示しているとPCに負荷がかかるため、編集の時は簡略化して表示するのが一般的です。<br><br>
-        Blenderでは右上のボタンから切り替えることができます。
+        Blenderでは右上のボタンから切り替えることができます。<br><br>
         
+        <img src="Blender-ViewRenderingSetting.gif" alt="画像表示不可" width=100% align="center">
+          
       </p>
     </div>
 
@@ -60,9 +86,11 @@
     <!-- ↓↓最初隠したいコンテンツ↓↓ -->
     <div class="content" id="ct1">
       <p>
-        スピーカー　　　　　　　：14<br>
-        セラミックコンデンサ　　：22<br>
-        ソケット　　　　　　　　：12<br>
+
+        右側のタブから様々な設定を行うことができます。<br>
+        特に図形の位置・回転・サイズは頻繁に使います。<br><br>
+        
+        <img src="Blender-DetailSettings.gif" alt="画像表示不可" width=100% align="center">
         
       </p>
     </div>
@@ -73,11 +101,11 @@
     <!-- ↓↓最初隠したいコンテンツ↓↓ -->
     <div class="content" id="ct2">
       <p>
-        スピーカー　　　　　　　：14<br>
-        フォトカプラ　　：22<br>
-        フォトインタラプタ　　：22<br>
-        フォトリフレクタ　　：22<br>
-        ボリューム　　　　　　　　：12<br>
+        CGの基本となる図形を追加します。<br>
+        画面右上の「追加」から選ぶか、Shift+Aキーでも追加できます。<br><br>
+          
+        <img src="Blender-AddObject.gif" alt="画像表示不可" width=100% align="center">
+        
         
       </p>
     </div>
@@ -88,9 +116,8 @@
     <!-- ↓↓最初隠したいコンテンツ↓↓ -->
     <div class="content" id="ct2">
       <p>
-        スピーカー　　　　　　　：14<br>
-        セラミックコンデンサ　　：22<br>
-        ソケット　　　　　　　　：12<br>
+        Blenderでは、編集モードと呼ばれるモードで図形の形を変えます。<br>
+        オブジェクトを選択した後、画面左上のタブから、通常のオブジェクトモードと編集モードを切り替えられます。<br><br>
         
       </p>
     </div>
@@ -101,9 +128,7 @@
     <!-- ↓↓最初隠したいコンテンツ↓↓ -->
     <div class="content" id="ct2">
       <p>
-        スピーカー　　　　　　　：14<br>
-        セラミックコンデンサ　　：22<br>
-        ソケット　　　　　　　　：12<br>
+        準備中
         
       </p>
     </div>
@@ -114,9 +139,7 @@
     <!-- ↓↓最初隠したいコンテンツ↓↓ -->
     <div class="content" id="ct3">
       <p>
-        スピーカー　　　　　　　：14<br>
-        セラミックコンデンサ　　：22<br>
-        レギュレータ　　　　　　　　：12<br>
+        準備中
         
       </p>
     </div>
@@ -159,20 +182,24 @@
       </p>
     </div>
 
-
-    <label for="label13">▼ OPQRSTU</label>
+    -->
+    <label for="label13" id="type5">▼ ショートカット</label>
     <input type="checkbox" id="label13" class="switch" />
     <div class="content">
       <p>
-        PIC-KIT 　　　　　　　：14<br>
-        PICマイコン　　：22<br>
-        RTC　　　　　　　　：12<br>
-        Raspberry Pi Pico　　　　　　　　：12<br>
+        図形の追加　　：Shift＋A<br>
+        図形の移動　　：G<br>
+        図形の回転　　：R<br>
+        図形の拡大縮小：S<br>
+        削除　　　　　：X<br>
+        １つ戻す　　　：Ctrl+Z<br>
+        １つ進める　　：Ctrl+Shift+Z<br>
+        画像を書き出し：F12
         
       </p>
     </div>
 
-
+    <!--
     <label for="label14">▼ VWXYZ</label>
     <input type="checkbox" id="label14" class="switch" />
     <div class="content">

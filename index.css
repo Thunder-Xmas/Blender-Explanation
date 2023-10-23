@@ -39,6 +39,11 @@ body{
   //opacity: 0.9;
 }
 
+#subtitle{
+  font-weight: bold;
+  
+}
+
 .topTitle{
   text-align: center;
   display: block;
